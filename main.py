@@ -4,7 +4,7 @@ from robot import Graphics, Robot, Ultrasonic
 
 MAP_DIMENSIONS = (600, 1200)
 
-gfx = Graphics(MAP_DIMENSIONS,'rt.png','ar.png')
+gfx = Graphics(MAP_DIMENSIONS,'rt.png','ar.jpg')
 start = (200, 200)
 robot = Robot(start, 0.01*3779.52)
 
